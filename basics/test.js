@@ -11,7 +11,37 @@
 // let valueInNumber = Number(score)
 // console.log(typeof valueInNumber)
 
-let isLoggedIn = 1
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(typeof booleanIsLoggedIn)
-console.log(booleanIsLoggedIn)
+// let isLoggedIn = 1
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(typeof booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
+        // console.log("2" === 2);
+        // primituve data types
+        // 7 types: String, Number, Boolean, undefined, null, Symbol, BigInt
+        
+        // let mail;
+        // let outsideTemp = null;
+        // const score = 100;
+        // const isLoggedIn = false;
+        // const bigNumber=132544657n;
+        // console.table({mail, outsideTemp, score, isLoggedIn, bigNumber});
+        // const id = Symbol("123");
+        // const anotherId = Symbol("123");
+        // console.log(id === anotherId);
+        // reference data types: Object, Arrays, Functions
+        // const heros = ["shaktiman", "naagraj", "doga"];
+        // const myObj = {
+        //     name: "Anubhuti",
+        //     age: 24,
+        //     isLoggedIn: true,
+        // };
+        // function greetUser(){
+        //     console.log("Hello User");
+        // }
+        // // const myFunction = function greetUser(){
+        // //     console.log("Hello User");
+        // }
+        // console.log(typeof heros);
+        // console.log(typeof myObj);
+        // console.log(typeof greetUser);
+        // console.log(typeof myFunction);
