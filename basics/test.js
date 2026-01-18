@@ -255,10 +255,15 @@
 // console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 
 // #Destructuring in JavaScript
-const course = {
-        coursename: "JavaScript Bootcamp",
-        price: 999,
-        courseInstructor: "Anubhuti Mishra"
-}
-const {courseInstructor:tutor} = course;
-console.log(tutor);   //#output Anubhuti Mishra
+// const course = {
+//         coursename: "JavaScript Bootcamp",
+//         price: 999,
+//         courseInstructor: "Anubhuti Mishra"
+// }
+// const {courseInstructor:tutor} = course;
+// console.log(tutor);   //#output Anubhuti Mishra
+
+
+
+// #apis in JavaScript
+
