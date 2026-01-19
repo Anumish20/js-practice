@@ -265,5 +265,85 @@
 
 
 
-// #apis in JavaScript
+// #functions in javascript
+// function sayMyName(){
+//         console.log("Anubhuti Mishra");
+// }
+// sayMyName();
 
+// function addTwoNumbers(num1, num2){
+//        let result =  num1 + num2;
+//        console.log(result);
+//        return result;
+// }
+// addTwoNumbers(13, 14);
+
+// function loginUserMessage(username){
+//         // if (username === undefined){
+//         if (!username){
+//                 return "Please enter username";
+//         }
+
+//         return `Hello ${username}, welcome here!`;
+// }
+// console.log(loginUserMessage("Harsh"));
+
+
+// function calculateCartPrice(val1,val2,...prices){
+       
+//         return prices;
+// }
+// // console.log(calculateCartPrice(100, 200, 300, 400, 500));
+// const user ={
+//         username: "harry",
+//         price:4500,
+        
+// }
+// function handleObject(anyObject){
+// console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+
+// }
+// handleObject(user);
+// handleObject({
+//         username: "Anubhuti",
+//         price: 9999,
+// });
+// const myNewArr = [1,2,3,4,5,6,7,8,9];
+// function returnSecondElement(getArray){{
+//         return getArray[1];
+// }}
+// // console.log(returnSecondElement(myNewArr));
+// console.log(returnSecondElement([10,20,30,40,50]));
+// if (true){
+//         let a = 10
+//         const b = 20
+//         var c = 30
+// }
+
+// // console.log(a);
+// // console.log(b);
+// console.log(c);
+// function one(){
+//         const username = "Anubhuti";
+//         function two (){
+//                 const website = "example.com";
+//                 console.log(username);
+
+//         }
+//         // console.log(website);
+//          two();
+// }
+// one();
+
+if (true){
+        const username = "Anmol"
+        if (username === "Anmol"){
+                const website = "example.com"
+                // console.log(username + website);
+}
+        // console.log(website);
+
+}
+// console.log(username);
+
+// ++++++++++++++++++++++ interesting +++++++++++++++++++
