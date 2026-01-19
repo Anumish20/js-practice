@@ -346,4 +346,26 @@ if (true){
 }
 // console.log(username);
 
-// ++++++++++++++++++++++ interesting +++++++++++++++++++
+// ++++++++++++++++++++++ interesting +++++++++++++++++++ 
+// #hoisting in javascript
+// addone(5);
+// function addone(num){
+//         return num + 1;
+// }
+
+
+// const addtwo = function(num){
+//         return num + 2;
+// }
+// addtwo(5);
+const user = {
+        username: "anubhuti",
+        price:999,
+        welcomeMessage: function(){
+                console.log(`${this.username},welcome`);
+        }
+}
+user.welcomeMessage();
+user.username = "Anmol";
+user.welcomeMessage();
+                   
