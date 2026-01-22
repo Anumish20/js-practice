@@ -335,15 +335,15 @@
 // }
 // one();
 
-if (true){
-        const username = "Anmol"
-        if (username === "Anmol"){
-                const website = "example.com"
+// if (true){
+//         const username = "Anmol"
+//         if (username === "Anmol"){
+//                 const website = "example.com"
                 // console.log(username + website);
-}
+//         }
         // console.log(website);
 
-}
+// }
 // console.log(username);
 
 // ++++++++++++++++++++++ interesting +++++++++++++++++++ 
@@ -358,14 +358,56 @@ if (true){
 //         return num + 2;
 // }
 // addtwo(5);
-const user = {
-        username: "anubhuti",
-        price:999,
-        welcomeMessage: function(){
-                console.log(`${this.username},welcome`);
-        }
-}
-user.welcomeMessage();
-user.username = "Anmol";
-user.welcomeMessage();
-                   
+// const user = {
+//         username: "anubhuti",
+//         price:999,
+//         welcomeMessage: function(){
+//                 console.log(`${this.username},welcome`);
+//         }
+// }
+// user.welcomeMessage();
+// user.username = "Anmol";
+// user.welcomeMessage();
+// const  chai = function (){
+//         let username ="anubhuti"
+//         console.log(this.username)
+
+// }
+// chai();
+// const chai = () =>{
+//         let username ="anubhuti"
+//         console.log(this.username)
+// }
+// chai();
+// const addTwo = (num1,num2)=>{
+//         return num1 + num2;  
+// } 
+// explicit return
+// const addTwo =(num1, num2) => (num1 + num2);
+
+
+// console.log(addTwo(3,4));
+// implicit return
+
+
+// immediately invoked function expression (IIFE)
+// # to remove global scope pollution we use IIFE
+//  
+      
+// (() =>{
+// console.log(`DB connected successfully`);
+// })();  
+
+// ((name) =>{
+//         console.log(`DB connected successfully ${name}`);
+// })("Anu");
+
+
+// #javascript execution context 
+// global execution context  // located in this file 
+
+// function execution context
+// eval execution context
+
+// memory phase
+
