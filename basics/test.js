@@ -410,4 +410,84 @@
 // eval execution context
 
 // memory phase
+// control flow in javascript
 
+// let temperature = 42;
+// if (temperature < 0){
+//         console.log("extremely cold outside");
+// } else {
+//         console.log("It is hot outside");
+// }
+// const score = 75;
+// if ( score>100){
+//         const power = "fly";
+//         console.log(`User power:  ${power}`)
+// }
+// const balance = 5000
+// if (balance > 1000) console.log("card");
+// else console.log("no card");
+const userLoggedIn = true;
+const debitCard = true
+const loggedInFromGoogle = false;
+// if (userLoggedIn && debitCard ){
+//         console.log("You can purchase");
+// } else {
+//         console.log("You cannot purchase");
+// } 
+
+// if (userLoggedIn || loggedInFromGoogle){
+//         console.log("You can purchase");
+// } else {
+//         console.log("You cannot purchase");
+// }
+
+
+
+// const month = 3
+// switch (month){
+//         case 1:
+//         console.log("January");
+//         break;
+//         case 2:
+//         console.log("February");
+//         break;
+//         case 3:
+//         console.log("March");
+//         break;
+//         case 4:
+//         console.log("April");
+//         break;
+//         default:
+//         console.log("Invalid month");   
+// }
+//  const userEmail = "anubhuti@gmail.com";
+// if (userEmail){
+//         console.log("Email is present");
+// } else{
+//         console.log("Email is not present");
+// }
+// falsy values: "", null, undefined, 0, NaN, false,bigint 0n
+// truthy values: "abc", 1, -1, [], {}, true
+// if (userEmail.length > 0){
+//         console.log("Array is empty");}
+
+// const emptyObj = {}
+// if (Object.keys(emptyObj).length === 0){
+//         console.log("Object is empty");
+// }
+// nullish coalescing operator (??): null undefined
+// let val1;
+ // val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = undefined ?? 15
+// val1 = null ?? 10 ?? 20
+
+
+// console.log(val1)
+// ternary operator
+// const iceTeaPrice = 50;
+//         iceTeaPrice>=80?console.log("Ice tea price is high"):console.log("Ice tea price is low");
+
+for (let i = 0; i<15 ; i++){
+        console.log(`Iteration number ${i}`);
+}
