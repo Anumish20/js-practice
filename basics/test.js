@@ -426,9 +426,9 @@
 // const balance = 5000
 // if (balance > 1000) console.log("card");
 // else console.log("no card");
-const userLoggedIn = true;
-const debitCard = true
-const loggedInFromGoogle = false;
+// const userLoggedIn = true;
+// const debitCard = true
+// const loggedInFromGoogle = false;
 // if (userLoggedIn && debitCard ){
 //         console.log("You can purchase");
 // } else {
@@ -487,7 +487,164 @@ const loggedInFromGoogle = false;
 // ternary operator
 // const iceTeaPrice = 50;
 //         iceTeaPrice>=80?console.log("Ice tea price is high"):console.log("Ice tea price is low");
+// loops in javascript
+// for loop
+// for (let i = 0; i<=15;  i++){
+//         const element = i;
+//         if (element ==5){
+//                 // console.log("5 is found");
+//         }
+//         // console.log(element);
+// }
+// for (let i=1;i<=10; i++){
+//         console.log(`Outer loop value is ${i}`);
+//         for (let j=1;j<=10; j++){
+//         // console.log(`inner value is ${j} and outer value is ${i}`);
+//         console.log(i + "*" + j  +  "=" + i*j);
+//         }
+// }
+// let myArray = ["apple", "banana", "cherry"];
+// console.log(myArray.length);
+// for (let i =0;i<myArray.length;i++){
+//         console.log(myArray[i]);
+// }
+// break and continue
+// for (let i =1;i<=20; i++){
+//         if (i==5){
+//                 console.log("detected 5 ");
+//                 break;
+                
+//         }
+//                 console.log(`value of i is ${i}`);
+               
+//         }
+// for (let i =1;i<=20; i++){
+//         if (i==5){
+//                 console.log("detected 5 ");
+//                 continue;
+                
+//         }
+//                 console.log(`value of i is ${i}`);
+               
+//         }
+// while loop
 
-for (let i = 0; i<15 ; i++){
-        console.log(`Iteration number ${i}`);
-}
+// let index= 1;
+// while( index<=10){
+//         console.log(`value of index ${index}`);
+//         index++;
+// }
+
+// let myArray = ["apple", "banana", "cherry"];
+// let arr = 0;
+// while (arr < myArray.length){
+//         console.log(`value is ${myArray[arr]}`);
+//         arr++;
+// }
+// do while loop
+
+// let score = 11;
+//  do {
+// console.log(`value of score is ${score}`);
+// score++;
+
+//  } while (score<=10);
+//  do while loop runs at least once even if the condition is false
+
+// for ..of loop
+
+// const arr = [1,2,3,4,5,6]
+// for (const val of arr){
+//         console.log(val);
+
+// }
+
+// const greeting = "hello mishra"
+// for (const greet of greeting){
+//         console.log(`Each character is ${greet}`);
+        
+// }
+// // maps
+// const map = new Map()
+
+// map.set('IN', 'India')
+// map.set('US', 'United States')
+// map.set('UK', 'United Kingdom')
+// map.set('CA', 'Canada')
+// map.set('AU', 'Australia')
+// // console.log(map);
+// for (const [key, value ]  of map) {
+//         console.log(key, ':', value);
+        
+        
+// }
+
+// const myObject = {
+//         'game1': 'ludo',
+//         'game2': 'chess',
+//         'game3': 'board'
+// }
+// for (const [key,value] of myObject) {
+//         console.log(key, ':-', value);
+        
+        
+// }
+
+// const myObject = {
+//         js : "javascript",
+//         cpp : "c++",
+//         java : "java",
+//         rb : "ruby"
+// }
+// for (const key in myObject) {
+//        console.log(key);
+//        console.log(myObject[key]);
+//        console.log(`${key} shortcuts are for ${myObject[key]}`);
+              
+// }
+
+// const programming = ["js","rb","py","java","cpp"]
+// for (const key in programming) {
+//         // console.log(key); index print
+//         console.log(programming[key]);       
+// }
+const coding = ['js','java','python','cpp']
+// coding.forEach( function (item){
+//         console.log(item);
+        
+// })
+// coding.forEach((item)=> {
+//         console.log(item);
+//         })
+// function printMe(item){
+//         console.log(item);
+        
+// }
+// coding.forEach(printMe)
+//  
+
+// const myCoding =[
+//         {
+//                 languageName: "JavaScript",
+//                 fileExtension: ".js",
+//                 developedBy: "Brendan Eich"
+//         },
+//         {
+//                 languageName: "Python",
+//                 fileExtension: ".py",
+//                 developedBy: "Guido van Rossum"
+//         },
+//         {
+//                 languageName: "C++",
+//                 fileExtension: ".cpp",
+//                 developedBy: "Bjarne Stroustrup"
+//         }
+
+// ]
+// myCoding.forEach( (item) => {
+//         console.log(`Language name is ${item.languageName}, file extension is ${item.fileExtension} and developed by ${item.developedBy}`);
+        
+// })
+const myNums = [1,2,3,4,5,6,7,8,9,10]
+const newNums = myNums.filter((num) => num>= 5)
+console.log(newNums);
