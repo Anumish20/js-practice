@@ -686,11 +686,33 @@
 //                 .filter((num) => num >=30)
 //  console.log(newNums);
 //  reduce method
-const myNums = [1,2,3,4]
+// const myNums = [1,2,3,4]
 
-const sum = myNums.reduce(function (acc, curr){
-         console.log(`accumulator : ${acc} , current value : ${curr}`);
+// const sum = myNums.reduce(function (acc, curr){
+//          console.log(`accumulator : ${acc} , current value : ${curr}`);
         // acc += curr;
-        return acc + curr}, 0 )
-        console.log(sum);
-        
+        // const sum = myNums.reduce((acc, curr) => acc+curr, 0)
+
+        // console.log(sum)    
+//         const shoppingcart = [
+//                 {
+//                         itemName: 'js course',
+//                         price: 2999
+//                 },
+//                 {
+//                         itemName: 'python course',
+//                         price: 1999
+//                 },
+//                 {
+//                         itemName: 'java course',
+//                         price: 999
+//                 }
+//           ,
+//                 {
+//                         itemName: 'web dev course',
+//                         price: 6999
+//                 },
+//         ]     
+//        const priceToPay = shoppingcart.reduce((acc, item) => acc + item.price, 0)
+//        console.log(priceToPay);
+       
