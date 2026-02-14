@@ -22,24 +22,113 @@
      
   
 <script>
-       // attachEvent
-    // jQuery - onevent listener
-    
+       // document.getElementById('owl').onclick = function(){
+    //     alert("owl clicked")
+    // }
+
+     // attachEvent()
+    // jQuery - on
+
     // type, timestamp, defaultPrevented
     // target, toElement, srcElement, currentTarget,
     // clientX, clientY, screenX, screenY
     // altkey, ctrlkey, shiftkey, keyCode
-  
-    // document.getElementById('owl').addEventListener('click', function(e){
-    //     console.log(e)
-    document.getElementById('images').addEventListener('click', function(e){
-        console.log("Clicked inside the URL")
-        },false)
 
-     document.getElementById('owl').addEventListener('click', function(e){
-        console.log("owl clicked!")
-    },false)
-  
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("clicked inside the ul");
+    // }, false)
+
+
+// ===============================
+// PARENT UL CLICK LISTENER
+// ===============================
+
+// document.getElementById('images').addEventListener('click', function(e){
+
+//     console.log("----- PARENT (UL) CLICK -----");
+//     // OUTPUT:
+//     // ----- PARENT (UL) CLICK -----
+//     // This runs because of EVENT BUBBLING (child → parent)
+
+//     console.log("Type:", e.type);
+//     // OUTPUT: Type: click
+//     // Meaning: Which event occurred
+
+//     console.log("TimeStamp:", e.timeStamp);
+//     // OUTPUT: TimeStamp: 2143.9 (value changes)
+//     // Meaning: Time when event happened after page load
+
+//     console.log("Default Prevented:", e.defaultPrevented);
+//     // OUTPUT: Default Prevented: false
+//     // Meaning: No preventDefault() called yet
+
+//     console.log("Target:", e.target);
+//     // OUTPUT: Target: <img id="photoshop"...>
+//     // Meaning: Actual element clicked (where event happened)
+
+//     console.log("Current Target:", e.currentTarget);
+//     // OUTPUT: Current Target: <ul id="images">
+//     // Meaning: Element where listener is attached
+
+//     console.log("Src Element:", e.srcElement);
+//     // OUTPUT: Same as target
+//     // Meaning: Old IE version of target
+
+//     console.log("To Element:", e.toElement);
+//     // OUTPUT: null (for click events)
+//     // Meaning: Used mainly in mouseover/mouseout
+
+//     console.log("Client X:", e.clientX);
+//     console.log("Client Y:", e.clientY);
+//     // OUTPUT: Client X: 156, Client Y: 118 (changes)
+//     // Meaning: Mouse position inside browser window
+
+//     console.log("Screen X:", e.screenX);
+//     console.log("Screen Y:", e.screenY);
+//     // OUTPUT: Screen X: 928, Screen Y: 244 (changes)
+//     // Meaning: Mouse position on entire monitor screen
+
+//     console.log("Alt Key:", e.altKey);
+//     console.log("Ctrl Key:", e.ctrlKey);
+//     console.log("Shift Key:", e.shiftKey);
+//     // OUTPUT: false false false
+//     // Meaning: Modifier keys pressed during click
+//     // Try CTRL + Click → Ctrl Key: true
+
+//     console.log("Key Code:", e.keyCode);
+//     // OUTPUT: undefined
+//     // Meaning: keyCode only works for keyboard events, not mouse
+
+// }, false);
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log("owl clicked");
+    //     e.stopPropagation()
+    // }, false)
+    
+    // document.getElementById('google').addEventListener('click',function(e){
+    //     e.preventDefault();
+    //     e.stopPropagation()
+    //     console.log("google clicked");
+    // }, false)
+
+// document.querySelector('#images').addEventListener('click', function(e){
+//         console.log(e.target.tagName);
+//         if (e.target.tagName === 'IMG') {
+//             console.log(e.target.id);
+//             let removeIt = e.target.parentNode
+//             // removeIt.remove()
+//             // removeIt.parentNode.removeChild(removeIt)
+            
+//         }
+    
+        
+//     })
+
+    
+
+
+
+
    </script>
 </body>
 </html>
